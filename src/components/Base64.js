@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Text from 'leaf-ui/Text/web';
+import { TextWrap } from '../styles';
 
 // ////////////////////////////////////////////////////////
 
@@ -14,9 +14,9 @@ const defaultProps = {
 };
 
 const Base64 = ({ data }) => (
-  <Text size="m" style={{ wordBreak: 'break-all' }}>
+  <TextWrap size="m" style={{ wordBreak: 'break-all' }}>
     {btoa(JSON.stringify(data))}
-  </Text>
+  </TextWrap>
 );
 
 Base64.propTypes = propTypes;

@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import Card from 'leaf-ui/Card/web';
+import Text from 'leaf-ui/Text/web';
+
+// ////////////////////////////////////////////////////////
 
 export const AppContainer = styled.div`
   padding: 5% 15%;
@@ -41,4 +44,8 @@ export const ListCard = styled(Card)`
   padding: 2rem;
   margin-bottom: 1rem;
   min-height: ${props => (props.fixed ? '5rem' : '')};
+`;
+
+export const TextWrap = styled(Text)`
+  word-break: break-all;
 `;
