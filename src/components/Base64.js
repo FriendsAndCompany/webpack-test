@@ -13,7 +13,11 @@ const defaultProps = {
   data: {}
 };
 
-const Base64 = ({ data }) => <Text size="m">{btoa(data)}</Text>;
+const Base64 = ({ data }) => (
+  <Text size="m" style={{ wordBreak: 'break-all' }}>
+    {btoa(JSON.stringify(data))}
+  </Text>
+);
 
 Base64.propTypes = propTypes;
 Base64.defaultProps = defaultProps;
