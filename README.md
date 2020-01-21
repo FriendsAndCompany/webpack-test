@@ -1,4 +1,4 @@
-# Assignment
+# Assignment 
 
 [![Build Status](https://travis-ci.org/FriendsAndCompany/assignment-2.svg)](https://travis-ci.org/FriendsAndCompany/assignment-2)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
